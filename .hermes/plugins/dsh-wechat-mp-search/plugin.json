@@ -1,0 +1,9 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "dsh-wechat-mp-search",
+  "version": "0.1.0",
+  "description": "Project-local MCP server for searching Sogou WeChat public-account articles and extracting article text.",
+  "repository": "https://github.com/iTraceur/dsh-wechat-mp-search",
+  "license": "MIT",
+  "keywords": ["mcp", "wechat", "weixin", "sogou", "search", "project-local"]
+}

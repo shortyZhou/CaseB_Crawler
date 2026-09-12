@@ -1,0 +1,9 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "mcp-webscraper",
+  "version": "0.1.0",
+  "description": "Project-local MCP web scraper server for static/dynamic page scraping and crawling.",
+  "repository": "https://github.com/samirsaci/mcp-webscraper",
+  "license": "MIT",
+  "keywords": ["mcp", "webscraper", "scraping", "crawler", "project-local"]
+}

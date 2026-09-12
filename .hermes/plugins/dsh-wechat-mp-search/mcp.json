@@ -1,0 +1,11 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/mcp.schema.json",
+  "mcpServers": {
+    "wechat-mp-search": {
+      "type": "stdio",
+      "command": "npx",
+      "args": ["-y", "dsh-wechat-mp-search@0.1.0"],
+      "env": {}
+    }
+  }
+}

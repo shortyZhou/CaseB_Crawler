@@ -1,0 +1,20 @@
+# Python environments and caches
+.venv/
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Runtime / crawl scratch data
+crawl_tmp/
+*.log
+
+# Local secrets / machine-specific config
+.env
+.env.*
+*.pem
+*.key
+*.p12
+*.pfx
+
+# Vendored plugin dependencies can be recreated from pyproject/requirements
+.hermes/plugins/mcp-webscraper/server/_vendor/
