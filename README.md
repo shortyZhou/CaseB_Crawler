@@ -12,11 +12,6 @@
 
 适用于已知目标网站或网页 URL 的场景，例如公司官网、行业资讯页、单篇微信公众号网页版文章等。
 
-示例目标包括：
-
-- 氟务在线官网：https://www.fuwuzaixian.cn/
-- 微信公众号文章网页版：https://mp.weixin.qq.com/s/c2l_RYmeYVaDeR4gO9HU6Q
-
 使用方式：
 
 1. 先用 Hermes 内置 `web_search` / `web_extract` 获取公开网页文本。
