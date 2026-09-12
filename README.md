@@ -6,6 +6,8 @@
 
 ## 项目做了什么
 
+如想复刻，请参考教程：https://github.com/shortyZhou/Hermes/blob/main/7.%20%E6%A1%88%E4%BE%8B%EF%BC%9A%E7%88%AC%E8%99%AB.pdf
+
 本 repo 对应案例 PDF《7. 案例：爬虫》，核心是比较三类爬取路径：
 
 ### A. 直接爬取网站 / 网页内容
