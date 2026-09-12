@@ -169,37 +169,6 @@ C:/Users/24779/Desktop/AI related/CaseB_Crawler/.hermes/plugins/wechat-article-s
 
 但当前仓库工作区没有这个完整目录。因此 README 中把它标为“profile 中配置过 / 曾启用过”，而不是标为“repo 内已提交”。如果后续要继续使用，需要重新安装或恢复对应 `.hermes/plugins/wechat-article-spider/` 目录。
 
-### 7. 本地 Python 虚拟环境 `.venv/`
-
-本地 `.venv/` 没有上传到 GitHub。里面包含本案例运行时用过的 Python 包和命令行工具，例如：
-
-| 包 / 工具 | 版本 | 用途 | 来源 |
-|---|---:|---|---|
-| `openpyxl` | `3.1.5` | 生成和编辑 `.xlsx` 结果表格 | https://openpyxl.readthedocs.io/ |
-| `DrissionPage` | `4.1.1.4` | 浏览器自动化，支撑 `wechat-search` 登录 / 抓取流程 | https://github.com/g1879/DrissionPage |
-| `requests` | `2.34.2` | HTTP 请求 | https://github.com/psf/requests |
-| `beautifulsoup4` | `4.15.0` | HTML 解析 | https://www.crummy.com/software/BeautifulSoup/ |
-| `lxml` | `6.1.3` | HTML / XML 解析 | https://lxml.de/ |
-| `markdownify` | `1.2.3` | HTML 转 Markdown | https://github.com/matthewwithanm/python-markdownify |
-| `wechat-search-skill` | `1.0.0` | 微信公众号搜索 / 抓取 CLI | https://github.com/qbu11/weixin-public-account-skill |
-
-完整包列表可在本地运行：
-
-```bash
-.venv/Scripts/python.exe -m pip list --format=freeze
-```
-
-### 8. Node.js / npx / uv / Playwright 等运行工具
-
-| 工具 | 本地状态 | 用途 | 来源 |
-|---|---|---|---|
-| Node.js | 本地检测版本：`v24.16.0` | 运行 `npx` 与 npm MCP 包 | https://nodejs.org/ |
-| `npx` | 本地检测版本：`12.0.2` | 运行 `dsh-wechat-mp-search` | https://docs.npmjs.com/cli/v10/commands/npx |
-| `uv` | 本地检测版本：`0.12.6` | Python 项目 / MCP server 依赖管理 | https://github.com/astral-sh/uv |
-| Playwright | `mcp-webscraper` 依赖之一 | 动态页面渲染、Chromium 自动化 | https://github.com/microsoft/playwright-python |
-
-这些工具是机器级或虚拟环境级依赖，不会显示在 GitHub 文件列表中。
-
 ## 被 `.gitignore` 排除的本地内容
 
 当前 `.gitignore` 主要排除了：
