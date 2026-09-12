@@ -2,6 +2,8 @@
 
 这是一个基于 **Hermes Agent** 的爬虫案例项目，用来展示在个人研究场景下，如何组合不同网页抓取工具、MCP、Skill 与 Excel 生成脚本，完成公开网页与微信公众号公开文章的信息检索、提取、整理和交付。
 
+English intro: This repository is a Hermes Agent crawler case study for personal research. It demonstrates how to combine built-in web tools, MCP servers, Skills, browser-based extraction, and Python Excel scripts to collect public web / WeChat article information and organize the results into structured spreadsheets.
+
 > 本项目仅用于学习与个人研究。请遵守目标网站/平台的 robots.txt、服务条款、版权、隐私与当地法律法规；不要高频请求、不要抓取非公开数据、不要绕过强访问控制或验证码。
 
 ## 项目做了什么
